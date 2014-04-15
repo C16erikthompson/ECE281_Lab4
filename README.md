@@ -27,7 +27,10 @@ The only debugging that was required for the testbench was deleting extraneous s
 
 ![](https://github.com/C16erikthompson/ECE281_Lab4/blob/master/Datapath_l2.png?raw=true)
 
-  When the jump command is reached at 225ns, jmpsel is becoming high, forcing the 
+  When the jump command is reached at 225ns, jmpsel and addrsel are becoming high, forcing the program to jump back to address 02, supported by the waveform citing the address as 02 after the jump.  Below is the PRISM programming:
+  
+![](https://github.com/C16erikthompson/ECE281_Lab4/blob/master/programpath.png?raw=true)
+
 
 
 
