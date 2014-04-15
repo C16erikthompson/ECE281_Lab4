@@ -13,11 +13,13 @@ Upon manual inspection of the Waveform, I found that each command worked as expe
 Datapath
 ---------
 
-Designing the Datapath relied heavily upon the diagram of the PRISM architecture provided in the PRISM manual.  Being given the basic form of a register with the provided program counter, I looked at the inputs and outputs for each register and defined their interactions in a manner similar to that in the program counter.  The only deviation from this design process lie in the creation of the address selector register, which required the concatenation of the MARHi and MARLo register outputs.  The Waveform for the Datapath is displayed below:
+Designing the Datapath relied heavily upon the diagram of the PRISM architecture provided in the PRISM manual.  Being given the basic form of a register with the provided program counter, I looked at the inputs and outputs for each register and defined their interactions in a manner similar to that in the program counter.  The only difficulty during the design process lie in the creation of the address selector register, which required the concatenation of the MARHi and MARLo register outputs.  There were no major alterations made to the character of the Datapath in our VHDL programming.  The Waveform for the Datapath is displayed below:
 
 ![](https://github.com/C16erikthompson/ECE281_Lab4/blob/master/Datapath_Waveform.png?raw=true)
 
 To initially verify that the waveform was performing corectly, I simply compared its output to that provided in Lab 4.  A more in-depth aalysis of the waveform output follows.
+
+#Reverse Engineering
 
 
 
