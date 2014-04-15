@@ -17,9 +17,16 @@ Designing the Datapath relied heavily upon the diagram of the PRISM architecture
 
 ![](https://github.com/C16erikthompson/ECE281_Lab4/blob/master/Datapath_Waveform.png?raw=true)
 
-To initially verify that the waveform was performing corectly, I simply compared its output to that provided in Lab 4.  A more in-depth aalysis of the waveform output follows.
+The only debugging that was required for the testbench was deleting extraneous semicolons in the code.  To initially verify that the waveform was performing corectly, I simply compared its output to that provided in Lab 4.  A more in-depth aalysis of the waveform output follows.
 
 #Reverse Engineering
+
+![](https://github.com/C16erikthompson/ECE281_Lab4/blob/master/Datapath_l1.png?raw=true)
+
+
+![](https://github.com/C16erikthompson/ECE281_Lab4/blob/master/Datapath_l2.png?raw=true)
+
+
 
 
 
