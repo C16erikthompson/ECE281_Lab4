@@ -4,11 +4,14 @@ ECE281_Lab4
 ALU Design
 ----------
 
+![](https://github.com/C16erikthompson/ECE281_Lab4/blob/master/ALUschem.JPG?raw=true)
+
 To implement the various actions for which the ALU is responsible, in-line commands that take advantage of the inherent features of vhdl were used, using one case statement for each function of the ALU.  The largest issue that was encontered was understanding that both the LDA command and IN command came straight from the Data Bus.  The simulation for the ALU is below:
 
 ![](https://github.com/C16erikthompson/ECE281_Lab4/blob/master/ALU_Waveform.png?raw=true)
 
 Upon manual inspection of the Waveform, I found that each command worked as expected.
+
 
 Datapath
 ---------
